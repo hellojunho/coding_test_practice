@@ -3,7 +3,6 @@ import java.util.Scanner;
 // N-Queen
 // 1. 퀸과 인접한 칸에는 다른 퀸이 있으면 안됨 -> 검사 필요
 // 2. 안전한 곳에 퀸 배치
-
 public class N_Queen {
     public static void main(String[] args) {
         int N;

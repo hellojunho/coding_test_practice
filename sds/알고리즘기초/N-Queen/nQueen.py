@@ -6,7 +6,6 @@ def check(x):
             return False
     return True
 
-
 def back_tracking(x):
     global result
     if x == n:
@@ -14,7 +13,7 @@ def back_tracking(x):
         print(arr, end='\n')
 
     else:
-        for i in range(n):
+        for i  in range(n):
             arr[x] = i
             if check(x):
                 back_tracking(x + 1)
