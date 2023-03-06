@@ -1,3 +1,4 @@
+// 시관 초과 뜸 ㅜㅜ
 #include <stdio.h>
 
 int main(void)
