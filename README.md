@@ -1,10 +1,10 @@
 # conding_test_practice
 백준 코딩테스트 문제 연습 저장소.  
 
-언어
-: python
-: c
-: java
+사용 언어
+**Python**  
+**Java**  
+**C**  
 
 이 언어들 중 하고싶은 언어 골라서 연습  
 
