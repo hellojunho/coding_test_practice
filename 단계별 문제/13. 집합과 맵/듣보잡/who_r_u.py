@@ -10,17 +10,15 @@ check = set()
 for i in range(m):
     check.add(sys.stdin.readline().rstrip())
 
-# print(known)
-# print(check)
-
-print('\n')
+result = set()
 count = 0
-result = list
 for i in known:
     for j in check:
         if j in i:
+            result.add(j)
             count += 1
-            result.append(j)
+
 
 print(count)
-print(j)            
+for i in result:
+    print(i)
