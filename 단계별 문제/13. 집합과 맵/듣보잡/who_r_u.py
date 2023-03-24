@@ -13,7 +13,7 @@ for i in range(m):
 result = set()
 count = 0
 for i in known:
-    for j in check:
+    for j in check:ㄹㄹ
         if j in i:
             result.add(j)
             count += 1
