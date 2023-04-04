@@ -4,9 +4,10 @@ setNum=int(input())
 
 for i in range(setNum):
     a,b=map(int,sys.stdin.readline().split())
-    aa,bb=a,b
+    A,B=a,b
 
     while a%b!=0:
         a,b=b,a%b
 
-    print(aa*bb//b)
+    result = A%B/b
+    print(A*B//b)
